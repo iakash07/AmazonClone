@@ -1,0 +1,276 @@
+*{
+	padding: 0px;
+	margin:0px;
+	box-sizing: border-box;
+	font-family: arial;
+}
+.navbar{
+	height:60px;
+	background-color:#0f1111;
+	color:white;
+	display: flex;
+	align-items:center;
+	justify-content: space-evenly;
+}
+.navlogo{
+	height:50px;
+	width: 100px;
+}
+.logo{
+	background-image:url("amazon_logo.png");
+	background-size:cover;
+	height:50px;
+	width:100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.border{
+	border:1.5px solid transparent;
+}
+.border:hover{
+	border:1.5px solid white;
+}
+.navlocation{
+	margin-left:10px;
+height: 50px;
+}
+.firstpara{
+	color:#cccccc;
+	font-size:0.8rem;
+	margin-left:13px;
+
+}
+}
+.secondpara{
+	font-size:1rem;
+	margin-left:5px;
+
+}
+.locationicon{
+	display: flex;
+	align-items: center;
+}
+.searchbar{
+	display: flex;
+	width:900px;
+	height: 40px;
+	border-radius:3px;
+
+}
+.searchbar:hover{
+	border:1px solid orange;
+}
+.searchselect{
+	background-color: #E6E6E6;
+	width: 50px;
+	text-align: center;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+	border:none;
+}
+.inputsearch{
+	width: 100%;
+	font-size: 1rem;
+	border:none;
+}
+.searchicon{
+	width:45px;
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	background-color: #febd68;
+	font-size: 1.2rem;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	color:#f3f3f3;
+
+}
+.language{
+	height: 40px;
+}
+.languageicon{
+	color:orange;
+	display: flex;
+	align-items: center;
+	}
+.languageselect{
+	margin-left: 4px;
+	height: 30px;
+	background-color: transparent;
+	border:none;
+	color:orange;
+	width:40px;
+}
+.sigin{
+	height: 40px;
+}
+.signfirst{
+	font-size: 0.5rem;
+}
+.signsecond{
+	font-size: 0.7rem;
+	font-weight:700;
+}
+.carticon{
+	height: 40px;
+	width:60px;
+	font-size:1.5rem;
+	display: flex;
+	align-items:center;
+	justify-content: center;
+}
+hr{
+	height:1px;
+	background-color: white;
+	border: none;
+}
+.secondlayout{
+	height:40px;
+	background-color:#0F1111;
+	color: white; 
+	display: flex;
+	align-items: center;
+	justify-content: 
+
+}
+.menu{width: 60px;
+	height: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+   }
+   .menuicon{
+   	margin-left:8px;
+   	font-size: 1.5rem;
+   	display: flex;
+   	align-items: center;
+   	justify-content: center;
+   }
+.menupara{
+	margin-left: 3px;
+	font-size:0.8rem;
+}
+.deals{
+margin-left:15px;
+height: 30px;
+}
+.registery{
+margin-left:15px;
+height: 30px;
+}
+.Customer{
+margin-left:15px;
+height: 30px;
+}
+.Gift{
+margin-left:15px;
+height: 30px;
+}
+.Sell{
+margin-left:15px;
+height: 30px;
+}
+.third{
+	background-image: linear-gradient(to bottom, lightblue,skyblue);
+}
+.thirdlayout{
+	height:330px;
+	background-image:url("main.jpg");
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+
+}.information{
+    padding: 3px;
+	margin-top:280px;
+	height:25px;
+	width: 90%;
+	background-color: white;
+	text-align: center;
+}
+a{
+	color: blue;
+}
+.main{
+	height:380px;
+	display: flex;
+	justify-content: space-evenly;
+}
+.box{
+	margin-top: 10px;
+	height: 350px;
+	width: 23%;
+	background-color: white;
+
+}
+.box1image{
+	height: 270px;
+	background-size: cover;
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+.box1h2{
+	margin-left: 12px;
+	margin-top: 18px;
+}
+.box1para{
+	margin-left: 12px;
+}
+footer>p{
+	padding: 4px;
+	height: 25px;
+	background-color:#007185;
+	text-align: center;
+	color: white;
+
+}
+.footer1{
+    height: 200px;
+	background-color: #232F3E;
+	color: white;
+	display: flex;
+	justify-content:space-evenly;
+}
+ul{
+	margin-top: 30px;
+}
+#head1{
+	font-size: 0.8rem;
+}
+.logo2{
+	height: 50px;
+	background-color:#232F3E;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logoimage{
+	margin-bottom: 3px;
+	height:45px;
+	width: 100px;
+	background-size: cover;
+
+	
+}
+.last{
+	height:40px;
+	 background-color: #4C5270;
+
+}
+.copyright{
+           padding-top:5px;
+            font-size: 0.7rem;
+            text-align: center;
+            color:white;
+        }
+ .copyright1{
+           
+            font-size: 0.7rem;
+            text-align: center;
+            color:white;
+        }
+ a{
+ 	text-decoration: none;
+ }
